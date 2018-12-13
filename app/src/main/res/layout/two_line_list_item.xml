@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+
+    android:gravity="center_vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingLeft="6dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/item_main"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="main_item"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="#c8c8c8"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/item_sub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:paddingTop="5dp"
+            android:text="sub_item"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textColor="#969696"
+            android:textSize="12dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="right_item"
+            android:textSize="10dp"
+            android:textColor="#c8c8c8"
+            android:id="@+id/item_right" />
+    </LinearLayout>
+</LinearLayout>
